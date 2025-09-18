@@ -12,7 +12,7 @@ A lightweight PHP utility for smart word transformations – from singular to pl
 Install via Composer:
 
 ```bash
-composer require yourname/inflector
+composer require didanurwanda/inflector-php
 ```
 
 Or include manually:
