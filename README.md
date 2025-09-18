@@ -1,6 +1,6 @@
 # Inflector PHP
 
-A lightweight PHP utility for smart word transformations – from singular to plural, snake_case to CamelCase, and everything in between. All methods are `static` and can be called directly on the `Inflector` class.
+A lightweight PHP utility for smart word transformations – from singular to plural, snake_case to CamelCase, and everything in between. Fully compatible with PHP 7.1 through 8.4.
 
 > **Note:**  
 > This library is a PHP port of the popular JavaScript library [inflector-js](https://www.npmjs.com/package/inflector-js), bringing similar functionality for smart word transformations such as singular/plural conversion and case formatting.

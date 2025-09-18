@@ -1,6 +1,6 @@
 {
   "name": "didanurwanda/inflector-php",
-  "description": "A lightweight PHP utility for smart word transformations – from singular to plural, snake_case to camelCase, and everything in between.",
+  "description": "A lightweight PHP utility for smart word transformations – from singular to plural, snake_case to camelCase, and everything in between. Fully compatible with PHP 7.1 through 8.4.",
   "type": "library",
   "license": "MIT",
   "authors": [
