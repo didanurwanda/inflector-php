@@ -42,6 +42,8 @@ jobs:
     steps:
       - name: Notify Packagist
         run: |
-          curl -XPOST -H 'content-type:application/json' \
+          curl -XPOST \
+            -H "Authorization: token ${{ secrets.PACKAGIST_TOKEN }}" \
+            -H "Content-Type: application/json" \
             -d '{"repository":{"url":"https://github.com/didanurwanda/inflector-php"}}' \
-            https://packagist.org/api/update-package?username=didanurwanda&apiToken=${{ secrets.PACKAGIST_TOKEN }}
+            https://packagist.org/api/update-package
