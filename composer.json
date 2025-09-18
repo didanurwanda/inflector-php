@@ -1,0 +1,36 @@
+{
+  "name": "didanurwanda/inflector-php",
+  "description": "A lightweight PHP utility for smart word transformations – from singular to plural, snake_case to camelCase, and everything in between.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dida Nurwanda",
+      "email": "didanurwanda@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/didanurwanda/inflector-php",
+  "keywords": [
+    "inflector",
+    "singular",
+    "plural",
+    "camelcase",
+    "snakecase",
+    "word transformation",
+    "string manipulation"
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0 || ^12.0"
+  },
+  "scripts": {
+    "test": "phpunit --colors=always --testdox"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inflector\\": "src/"
+    }
+  }
+}
